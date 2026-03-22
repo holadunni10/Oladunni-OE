@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oluwasegun Emmanuel Oladunni</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <img src="profile.jpg" alt="Oluwasegun Emmanuel Oladunni" class="profile-pic">
+      <h1>Oluwasegun Emmanuel Oladunni</h1>
+      <p>Web Designer | Church Media Officer | School Counselor | Tutor</p>
+      <nav>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Creative Solutions for Education, Media & Technology</h2>
+      <p>Helping schools, churches, and individuals achieve excellence through design, counseling, and edutech consultation.</p>
+      <a href="#contact" class="btn">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="container">
+    <h2>My Services</h2>
+    <ul class="services-list">
+      <li>📘 WAEC, NECO, JAMB, GCE Registrations</li>
+      <li>📊 Results Checker & Verification</li>
+      <li>🎓 Admission Processing</li>
+      <li>📝 POST UTME Registrations</li>
+      <li>📄 JAMB Results</li>
+      <li>🎥 Live Streaming of Events</li>
+      <li>🎨 Graphic Design</li>
+      <li>🎬 Video Editing</li>
+      <li>🧑‍🏫 Counselling Services</li>
+      <li>💻 Edutech Consultation</li>
+    </ul>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <p>
+      I am a passionate Web Designer, Church Media Officer, School Counselor, and Tutor. 
+      With years of experience in education, media, and technology, I provide innovative solutions 
+      that empower students, institutions, and organizations to thrive in the digital age.
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container">
+    <h2>Contact Me</h2>
+    <p>📞 Phone/WhatsApp: <strong>08108125927</strong></p>
+    <p>📧 Email: <strong>reformedmedia10@gmail.com</strong></p>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <p id="formResponse"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Oluwasegun Emmanuel Oladunni. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
